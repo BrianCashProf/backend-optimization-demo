@@ -1,0 +1,13 @@
+numpy>=2.2,<2.5
+numba>=0.65,<0.66
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+httpx>=0.28,<1
+websockets>=14,<17
+jupyterlab>=4.3,<5
+ipykernel>=6.29,<8
+matplotlib>=3.9,<4
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+locust>=2.32,<3
+websocket-client>=1.8,<2

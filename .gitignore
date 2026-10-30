@@ -1,0 +1,10 @@
+.venv/
+.venv-free-threaded/
+.python/
+__pycache__/
+.ipynb_checkpoints/
+*.nbc
+*.nbi
+*.executed.ipynb
+benchmark-results*.json
+locust-results/

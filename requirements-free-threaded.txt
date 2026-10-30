@@ -1,0 +1,4 @@
+-r requirements-cuda.txt
+# The CUDA package selected for Python 3.14t still references np.trapz,
+# which NumPy 2.4 removed. Keep this environment on NumPy 2.3.
+numpy>=2.3.4,<2.4

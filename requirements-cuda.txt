@@ -1,0 +1,4 @@
+-r requirements.txt
+# NVIDIA's maintained CUDA implementation; imports still use `from numba import cuda`.
+# Use a current CUDA 12 toolkit (12.8 or newer for this RTX 5080 demo).
+numba-cuda[cu12]>=0.20,<1
